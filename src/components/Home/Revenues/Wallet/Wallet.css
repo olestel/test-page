@@ -1,0 +1,33 @@
+.Wallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 11px 0 16px 16px;
+    width: 260px;
+    border-right: 1px solid #FFFFFF;
+}
+
+.Name {
+    font-family: "IBM Plex Sans SemiBold";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    margin-bottom: 27px;
+}
+
+.Money {
+    font-family: "IBM Plex Sans Light";	
+    font-size: 60px;	
+    line-height: 70px;
+    margin: 56px 0 8px 0;
+}
+
+.Link {
+    color: #8A3FFC;	
+    font-family: "IBM Plex Sans";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+}

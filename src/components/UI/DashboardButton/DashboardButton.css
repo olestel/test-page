@@ -1,0 +1,16 @@
+.DashboardButton {
+    height: 49px;
+    width: 128px;
+    color: #161616;	
+    font-family: "IBM Plex Sans SemiBold";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    border: none;
+    background-color: #F4F4F4;
+    cursor: pointer;
+}
+.DashboardButton.active {
+    background-color: #E0E0E0;
+    border-top: 2px solid #8A3FFC;;
+}
