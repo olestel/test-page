@@ -10,3 +10,8 @@
     flex-direction: column;
     flex-grow: 1;
 }
+
+.contentBlock {
+    display: flex;
+    flex-direction: row;
+}

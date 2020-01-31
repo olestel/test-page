@@ -3,5 +3,6 @@
     height: 50px;
     background: #161616;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }

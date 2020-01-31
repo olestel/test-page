@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import classes from './Logo.css';
+import { Partnership20 } from '@carbon/icons-react';
 
 class Logo extends Component {
 
     render() {
       return (
         <div className={classes.Logo}>
-            <div>fafasfas</div>
+            <Partnership20 className={classes.Partnership}/>
+            <span>Wenty</span>
         </div>
       )
     }

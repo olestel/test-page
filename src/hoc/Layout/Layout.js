@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import classes from './Layout.css';
 import Header from '../../components/Header/Header';
+import Navigation from '../../components/Navigation/Navigation';
+import HomeNav from '../../components/Home/HomeNav/HomeNav';
+import Dachboard from '../Dachboard/Dachboard';
 
 class Layout extends Component {
   render() {
@@ -8,9 +11,12 @@ class Layout extends Component {
       <div className={classes.Layout}>
         <Header />
 
-        <main>
-          { this.props.children }
-        </main>
+        <div className={classes.contentBlock}>
+          <Navigation/>
+          <HomeNav />
+          <Dachboard />
+        </div>
+        
       </div>
     )
   }

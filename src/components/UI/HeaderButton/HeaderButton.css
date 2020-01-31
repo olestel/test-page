@@ -1,0 +1,16 @@
+.HeaderButton {
+    height: 49px;
+    width: 128px;
+    color: #F4F4F4;
+    font-family: "IBM Plex Sans";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    border: none;
+    background-color: #161616;
+    cursor: pointer;
+}
+.HeaderButton.active {
+    background-color: #525252;
+    border-bottom: 2px solid #8A3FFC;;
+}

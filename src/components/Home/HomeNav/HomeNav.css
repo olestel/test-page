@@ -1,0 +1,46 @@
+.HomeNav {
+    width: 336px;
+    padding-top: 54px;
+    background-color: #F4F4F4;
+}
+
+.HomePageName {
+    font-family: "IBM Plex Sans";	
+    font-size: 20px;	
+    line-height: 26px;
+    margin-left: 16px;
+}
+
+.HomeNavLinks:last-child {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.HomeNavLinks {
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.HomeNavLinks > * {
+    height: 50px;
+    padding-left: 16px;
+    font-family: "IBM Plex Sans";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ActiveHomeNavLink {
+    background-color: #E0E0E0;
+    border-right: 2px solid #8A3FFC;
+}
+
+.LinkWithSubLinks {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+}

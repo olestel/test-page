@@ -1,0 +1,15 @@
+.Navigation {
+    width: 50px;
+    height: 100vh;
+    border-right: 1px solid #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F4F4F4;
+}
+.Navigation:first-child {
+    padding-top: 16px;
+}
+.Navigation > div:last-child {
+    padding-bottom: 50px;
+}

@@ -8,8 +8,8 @@ class Header extends Component {
     render() {
       return (
         <header className={classes.Header}>
-            <Logo />
-            <ActionList />
+          <Logo />
+          <ActionList />
         </header>
       )
     }

@@ -1,0 +1,38 @@
+.SubLinks{
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.GreySircl{
+    height: 25px;	
+    width: 25px;	
+    border: 1px solid #E0E0E0;	
+    border-radius: 12px;	
+    background-color: #E0E0E0;
+    font-family: "IBM Plex Sans";	
+    font-size: 12px;	
+    letter-spacing: 0.32px;	
+    line-height: 25px;	
+    text-align: center;
+}
+
+.NewSession {
+    height: 25px;	
+    width: 42px;	
+    border: 1px solid #E8DAFF;	
+    border-radius: 12px;	
+    background-color: #E8DAFF;
+    color: #6929C4;	
+    font-family: "IBM Plex Sans";	
+    font-size: 12px;	
+    letter-spacing: 0.32px;	
+    line-height: 25px;	
+    text-align: center;
+}
+
+.New {
+    display: flex;
+    justify-content: space-between;
+    width: 74px;
+}

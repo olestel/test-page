@@ -1,0 +1,15 @@
+.NavLinks {
+    height: 48px;	
+    width: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.NavLinks.activeLink {
+    border-left: 2px solid #8A3FFC;
+}
+
+.NavLinks > * {
+    width: 48px;
+}
