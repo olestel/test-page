@@ -24,13 +24,12 @@ class Revenues extends Component {
               LinkText='View payments history'
           />
           <RevenueHistory />
-        </div>
-        <div>
-          <CalendarAndChart> <Calendar16 style={{fill: '#fff', margin: 'auto'}} /> </CalendarAndChart>
-          <CalendarAndChart> <ChartPie16 style={{fill: '#fff', margin: 'auto'}} /> </CalendarAndChart>
+          <div>
+            <CalendarAndChart> <Calendar16 style={{fill: '#fff', margin: 'auto'}} /> </CalendarAndChart>
+            <CalendarAndChart> <ChartPie16 style={{fill: '#fff', margin: 'auto'}} /> </CalendarAndChart>
+          </div>
         </div>
       </div>
-      
     )
   }
 }

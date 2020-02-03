@@ -7,5 +7,5 @@
 .RevenuesBlock {
     display: flex;
     flex-direction: row;
-    background-color: #F4F4F4;
+    flex-wrap: wrap;
 }

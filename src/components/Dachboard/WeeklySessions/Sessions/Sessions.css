@@ -95,3 +95,9 @@
     background-color: #8A3FFC;
     color: #F4F4F4;
 }
+
+@media (max-width: 1435px) {  
+    .Sessions {
+        padding-left: 5px;
+    }
+}

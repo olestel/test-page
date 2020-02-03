@@ -1,5 +1,6 @@
 .HomeNav {
-    width: 336px;
+    min-width: 285px;
+    max-width: 285px;
     padding-top: 54px;
     background-color: #F4F4F4;
 }

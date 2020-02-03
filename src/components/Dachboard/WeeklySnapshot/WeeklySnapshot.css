@@ -83,3 +83,9 @@
     justify-content: center;
     color: #A2191F;
 }
+
+@media (max-width: 1435px) {  
+    .ChartBlock {
+        border-right: none;
+    }
+}

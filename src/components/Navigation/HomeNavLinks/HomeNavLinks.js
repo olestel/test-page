@@ -23,8 +23,13 @@ const HomeNavLinks = props => {
                     </div>
                 </div>
             :
-            <div className={classes.GreySircl}>
-                {props.number}
+            <div className={classes.New}>
+                <div>
+                </div>
+
+                <div className={classes.GreySircl}>
+                    {props.number}
+                </div>
             </div>
         }
 
