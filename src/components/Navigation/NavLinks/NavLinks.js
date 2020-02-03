@@ -5,7 +5,7 @@ const NavLinks = props => {
     const cls = [
         classes.NavLinks,
         classes[props.type]
-    ]
+    ];
 
   return (
     <div

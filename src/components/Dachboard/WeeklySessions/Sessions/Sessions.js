@@ -6,7 +6,7 @@ const Sessions = props => {
   const cls = [
     classes.JoinButton, 
     classes[props.type]
-  ]
+  ];
   
   return (
     <div className={classes.Sessions}>

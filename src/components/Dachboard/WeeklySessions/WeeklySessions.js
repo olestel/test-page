@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
 import classes from './WeeklySessions.css';
-import Sessions from './Sessions/Sessions'
+import Sessions from './Sessions/Sessions';
 import { ArrowRight16, ChevronLeft16, ChevronRight16 } from '@carbon/icons-react';
 
 class WeeklySessions extends Component {
-
   render() {
     return (
       <div className={classes.WeeklySessions}>

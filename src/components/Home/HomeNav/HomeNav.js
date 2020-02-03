@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classes from './HomeNav.css';
 import { UserAvatar16, Meter16, ShareKnowledge16, Forum16, Recommend16, ChevronUp16 } from '@carbon/icons-react';
-import HomeNavLinks from '../../Navigation/HomeNavLinks/HomeNavLinks'
+import HomeNavLinks from '../../Navigation/HomeNavLinks/HomeNavLinks';
 
 class HomeNav extends Component {
   render() {

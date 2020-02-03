@@ -5,7 +5,7 @@ const DashboardButton = props => {
     const cls = [
         classes.DashboardButton,
         classes[props.type]
-    ]
+    ];
 
   return (
     <button

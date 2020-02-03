@@ -7,9 +7,11 @@
     justify-content: space-between;
     background-color: #F4F4F4;
 }
+
 .Navigation:first-child {
     padding-top: 16px;
 }
+
 .Navigation > div:last-child {
     padding-bottom: 50px;
 }

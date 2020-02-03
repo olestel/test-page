@@ -5,14 +5,14 @@ import ActionList from './ActionList/ActionList';
 
 class Header extends Component {
 
-    render() {
-      return (
-        <header className={classes.Header}>
-          <Logo />
-          <ActionList />
-        </header>
-      )
-    }
+  render() {
+    return (
+      <header className={classes.Header}>
+        <Logo />
+        <ActionList />
+      </header>
+    )
   }
+}
   
-  export default Header;
+export default Header;

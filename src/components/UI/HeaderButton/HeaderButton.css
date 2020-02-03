@@ -10,7 +10,8 @@
     background-color: #161616;
     cursor: pointer;
 }
+
 .HeaderButton.active {
     background-color: #525252;
-    border-bottom: 2px solid #8A3FFC;;
+    border-bottom: 2px solid #8A3FFC;
 }

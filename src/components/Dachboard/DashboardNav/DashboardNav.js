@@ -5,10 +5,10 @@ import DashboardButton from '../../UI/DashboardButton/DashboardButton';
 class DashboardNav extends Component {
   render() {
     return (
-        <nav className={classes.DashboardNav}>
-          <DashboardButton type="active">Revenues</DashboardButton>
-          <DashboardButton type="">Customers</DashboardButton>
-        </nav>
+      <nav className={classes.DashboardNav}>
+        <DashboardButton type="active">Revenues</DashboardButton>
+        <DashboardButton type="">Customers</DashboardButton>
+      </nav>
     )
   }
 }

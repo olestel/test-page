@@ -10,7 +10,8 @@
     background-color: #F4F4F4;
     cursor: pointer;
 }
+
 .DashboardButton.active {
     background-color: #E0E0E0;
-    border-top: 2px solid #8A3FFC;;
+    border-top: 2px solid #8A3FFC;
 }

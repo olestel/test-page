@@ -5,7 +5,7 @@ const HeaderButton = props => {
     const cls = [
         classes.HeaderButton,
         classes[props.type]
-    ]
+    ];
 
   return (
     <button
