@@ -83,7 +83,7 @@
     color: #A2191F;
 }
 
-@media (max-width: 1435px) {  
+@media (max-width: 1480px) {  
     .ChartBlock {
         border-right: none;
     }

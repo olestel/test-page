@@ -6,7 +6,7 @@
     background-color: #393939;    
 }
 
-@media (max-width: 1435px) {
+@media (max-width: 1480px) {
     .CalendarAndChart {
         border-top: 1px solid #FFFFFF;
     }

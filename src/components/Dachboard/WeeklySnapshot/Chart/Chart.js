@@ -6,13 +6,19 @@ const data = [
   { name: 'B', value: 25 },
 ];
 
-const COLORS = ['#6c6abb', '#E0E0E0'];
+const COLORS = ["url(#bones-gradient)", '#E0E0E0'];
 
 export default class Chart extends PureComponent {
 
   render() {
     return (
-      <PieChart width={275} height={145} onMouseEnter={this.onPieEnter}>
+      <PieChart width={275} height={145}>
+        <defs>
+          <linearGradient id="bones-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="#bbafe1" />
+          <stop offset="100%" stopColor="#0F62FE" />
+          </linearGradient>
+        </defs>
         <Pie
           data={data}
           cx={130}
