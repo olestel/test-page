@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import classes from './Dachboard.css';
-import DashboardNav from '../../components/Home/DashboardNav/DashboardNav'
-import Revenues from '../../components/Home/Revenues/Revenues'
+import DashboardNav from './DashboardNav/DashboardNav'
+import Revenues from '../Dachboard/Revenues/Revenues'
 
 class Dachboard extends Component {
   render() {

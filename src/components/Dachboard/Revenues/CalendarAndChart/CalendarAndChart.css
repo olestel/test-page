@@ -1,0 +1,7 @@
+.CalendarAndChart {
+    display: flex;
+    height: 49px;	
+    width: 49px;	
+    border: 1px solid #FFFFFF;	
+    background-color: #393939;    
+}

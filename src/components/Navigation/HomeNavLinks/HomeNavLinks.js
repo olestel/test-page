@@ -33,19 +33,3 @@ const HomeNavLinks = props => {
 }
 
 export default HomeNavLinks;
-
-{/* <div className={[classes.SubLinks]}> 
-    <div>
-        <UserAvatar16 /> New sessions
-    </div>
-
-    <div className={classes.New}>
-        <div className={classes.NewSession}>
-            New
-        </div>
-
-        <div className={classes.GreySircl}>
-            2
-        </div>
-    </div>
-</div> */}

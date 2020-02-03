@@ -3,7 +3,7 @@ import classes from './Layout.css';
 import Header from '../../components/Header/Header';
 import Navigation from '../../components/Navigation/Navigation';
 import HomeNav from '../../components/Home/HomeNav/HomeNav';
-import Dachboard from '../Dachboard/Dachboard';
+import Dachboard from '../../components/Dachboard/Dachboard';
 
 class Layout extends Component {
   render() {

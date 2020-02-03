@@ -2,5 +2,10 @@
     margin: 16px 0 0 16px;
     display: flex;
     flex-direction: row;
+}
+
+.RevenuesBlock {
+    display: flex;
+    flex-direction: row;
     background-color: #F4F4F4;
 }
