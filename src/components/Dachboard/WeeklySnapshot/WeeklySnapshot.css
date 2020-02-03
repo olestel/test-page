@@ -1,0 +1,85 @@
+.WeeklySnapshot {
+    font-family: "IBM Plex Sans";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 385px;
+}
+
+.ChartBlock {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E0E0E0;
+}
+
+.Title {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.Description {
+    font-size: 20px;	
+    line-height: 26px;
+    margin: 16px 0 5px 0;
+}
+
+.Link {
+    text-decoration: none;
+    color: #8A3FFC;	
+    font-family: "IBM Plex Sans";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.Value {
+    width: 275px;
+    font-size: 54px;	
+    line-height: 64px;	
+    text-align: center;
+    margin-top: -115px;
+    margin-bottom: -100px;
+}
+
+.ButtonBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 275px;
+    align-items: center;
+    margin-top: 110px;
+
+}
+
+.Healthy {
+    height: 25px;	
+    width: 61px;	
+    border: 1px solid #A7F0BA;	
+    border-radius: 12px;	
+    background-color: #A7F0BA;
+    color: #0E6027;
+    margin-right: 16px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.HealthyActivity {
+    height: 25px;	
+    width: 57px;	
+    border: 1px solid #FFD7D9;	
+    border-radius: 12px;	
+    background-color: #FFD7D9;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #A2191F;
+}

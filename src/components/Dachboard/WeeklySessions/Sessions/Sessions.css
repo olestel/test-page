@@ -1,0 +1,97 @@
+.Sessions {
+    padding: 16px;
+    width: 328px;
+    font-family: "IBM Plex Sans";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+}
+
+.HeaderBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.UserNameBlock {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.UserName {
+    font-size: 20px;	
+    line-height: 26px;
+    color: #161616;
+    margin-right: 12px;
+}
+
+.JoinedNow {
+    height: 25px;	
+    width: 131px;	
+    border: 1px solid #FFD7D9;	
+    border-radius: 12px;	
+    background-color: #FFD7D9;
+    font-size: 12px;	
+    letter-spacing: 0.32px;	
+    line-height: 25px;
+    color: #A2191F;
+    text-align: center;
+}
+
+.JoinedNowT {
+    height: 25px;	
+    width: 89px;	
+    border: 1px solid #E0E0E0;	
+    border-radius: 12px;	
+    background-color: #E0E0E0;
+    color: #161616;
+    font-size: 12px;	
+    letter-spacing: 0.32px;	
+    line-height: 25px;
+    text-align: center;
+}
+
+.UserSessionTime {
+    color: #393939;
+}
+
+.LinksBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    color: #8A3FFC;
+}
+
+.LinksBlock > span {
+    cursor: pointer;
+}
+
+.LinksDot {
+    height: 2px;
+    width: 2px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.JoinButton {
+    height: 49px;	
+    width: 289px;	
+    border: 1px solid #8A3FFC;
+    color: #8A3FFC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.JoinButton.Active {
+    background-color: #8A3FFC;
+    color: #F4F4F4;
+}

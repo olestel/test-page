@@ -1,0 +1,40 @@
+.WeeklySessions {
+    display: flex;
+    flex-direction: column;
+    font-family: "IBM Plex Sans SemiBold";	
+    font-size: 14px;	
+    letter-spacing: 0.16px;	
+    line-height: 18px;
+    margin: 0  0 16px 0;
+    width: 640px;
+}
+
+.WeeklySessionsTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 16px;
+}
+
+.Title {
+    font-weight: bold;
+}
+
+.Link {
+    color: #8A3FFC;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.NavArrow {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+}
+
+.SessionsBlock {
+    display: flex;
+    flex-direction: row;
+}

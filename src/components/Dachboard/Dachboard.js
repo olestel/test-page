@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import classes from './Dachboard.css';
-import DashboardNav from './DashboardNav/DashboardNav'
-import Revenues from '../Dachboard/Revenues/Revenues'
+import DashboardNav from './DashboardNav/DashboardNav';
+import Revenues from '../Dachboard/Revenues/Revenues';
+import WeeklySnapshot from './WeeklySnapshot/WeeklySnapshot';
+import WeeklySessions from './WeeklySessions/WeeklySessions';
 
 class Dachboard extends Component {
   render() {
@@ -11,10 +13,9 @@ class Dachboard extends Component {
           <span className={classes.UserCongratsText}>Good evening, Ali Darudar</span>
           <span className={classes.PageTitle}>Dashboard</span>
           <div className={classes.WeeklyInfo}>
-            {/* <WeeklySnapshot /> */}
-            {/* <WeeklySessions /> */}
+            <WeeklySnapshot />
+            <WeeklySessions />
           </div>
-          
         </div>
         <DashboardNav />
         <Revenues />
