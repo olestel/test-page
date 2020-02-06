@@ -1,0 +1,1 @@
+export const RENDERING_DATA = 'RENDERING_DATA';
